@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>Lista de Tarefas</h1>
+    <form >
+        <label for="tarefa" >Tarefa: </label>
+        <input type="text"  required id="tarefa">
+        <button type="submit" id="adicionar">Adicionar tarefa</button>
+        <button type="reset" id="deletar-todas">Deletar todas</button>
+    </form>
+    <div id="listagem">
+        <ol id="lista-tarefa">
+        </ol>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+</body>
+</html>

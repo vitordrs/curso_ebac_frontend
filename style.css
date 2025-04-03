@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #fdfdfd;
+    background-image: linear-gradient(white 38px, #d3d3d3 30px);
+    background-size: 100% 40px;
+    position: relative;
+}
+
+
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+input {
+    margin-right: 30px;
+    width: 300px;
+    padding: 5px;
+    border-radius: 8px;
+    cursor: text;
+    transition: 1s;
+}
+
+label {
+    font-size: 30px;
+    margin-right: 10px;
+    text-decoration: underline;
+}
+
+button {
+    margin-left: 10px;
+    width: 80px;
+    border-radius:8px ;
+    cursor: pointer;
+}
+
+#adicionar {
+    background: greenyellow;
+    color: black;
+}
+
+#deletar-todas{
+    background: rgb(241, 94, 94);
+}
+
+input:focus{
+    background: rgba(127, 255, 212, 0.322);
+}
+
+#listagem{
+    display: flex;
+    margin-left: 700px;
+    max-width: 100%;
+}
+
+ol li {
+    font-size: 25px;
+    background: initial;
+    border: solid black;
+    cursor: pointer;
+}
+
+.completa{
+    text-decoration: line-through;
+    color: red;
+}
